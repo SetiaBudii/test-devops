@@ -4,7 +4,6 @@ docs
 apidocs
 mlflow.Rcheck
 outputs
-examples
 
 dev
 # required for Docker build
