@@ -69,3 +69,9 @@ cd file/examples/sklearn_elasticnet_diabetes/linux
     ![image](https://github.com/SetiaBudii/test-devops/assets/95162227/99bc4b43-c881-4c1a-bccd-d37ffc740f37)
 
 
+Note: Proses Deployment pada kasus ini menggunakan VM dari layanan Azure. berikut link yang dapat diakses secara public:  
+- Link mlflow: http://ctb.japaneast.cloudapp.azure.com:5000
+- Link minIo: http://ctb.japaneast.cloudapp.azure.com:9001
+- Link Pgadmin: http://ctb.japaneast.cloudapp.azure.com:5050
+
+Tambahan: karena keterbatasan resource link diatas kemunkinan tidak standby/selalu bisa diakses dan link tsb bisa diakses jika VM sedang running/dijalankan
