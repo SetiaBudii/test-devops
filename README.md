@@ -36,9 +36,9 @@ _Note: Sebagian referensi memakai dokumen hasil eksplorasi Devops. Berikut drive
 Bagian B-Study kasus singkat  
 https://deknusapt.medium.com/konfigurasi-ftp-server-di-debian-8-cli-step-by-step-692f5195f069
 
-Bagian C-Project
-https://mlflow.org/
-https://blog.min.io/setting-up-a-development-machine-with-mlflow-and-minio/
-https://github.com/Toumash/mlflow-docker
-https://stackoverflow.com/questions/60088889/how-do-you-permanently-delete-an-experiment-in-mlflow
+Bagian C-Project  
+https://mlflow.org/  
+https://blog.min.io/setting-up-a-development-machine-with-mlflow-and-minio/  
+https://github.com/Toumash/mlflow-docker  
+https://stackoverflow.com/questions/60088889/how-do-you-permanently-delete-an-experiment-in-mlflow  
 
