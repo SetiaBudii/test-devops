@@ -14,7 +14,7 @@ services:
       - POSTGRES_PASSWORD=${PG_PASSWORD}
       - POSTGRES_DB=${PG_DATABASE}
     volumes:
-      - ./db_data:/var/lib/postgresql/data/
+      - ./db_data:/var/lib/postgresql/data1/
     healthcheck:
       test: ["CMD", "pg_isready", "-p", "${PG_PORT}", "-U", "${PG_USER}"]
       interval: 5s
@@ -61,16 +61,16 @@ services:
       - frontend
       - backend
     environment:
-      - AWS_ACCESS_KEY_ID=a9vhM8VI0x4PaXRudg3K
-      - AWS_SECRET_ACCESS_KEY=t3ymTWGpRckDnhS8npcM23X9PxlNJA5ST4WSFGba
-      - MLFLOW_S3_ENDPOINT_URL=http://ctb.japaneast.cloudapp.azure.com:${MINIO_PORT}
+      - AWS_ACCESS_KEY_ID=PV8zTp4cSbQSbqPsgZ52
+      - AWS_SECRET_ACCESS_KEY=t4O8q5W3QRWJ5zqopEmzX5YKkwd1recgrC7s07zW
+      - MLFLOW_S3_ENDPOINT_URL=http://localhost:${MINIO_PORT}
       - MLFLOW_S3_IGNORE_TLS=true
     command: >
       mlflow server
       --backend-store-uri postgresql://${PG_USER}:${PG_PASSWORD}@mlflow_db:${PG_PORT}/${PG_DATABASE}
       --host 0.0.0.0
       --serve-artifacts
-      --artifacts-destination s3://yayang
+      --artifacts-destination s3://setia
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:${MLFLOW_PORT}/"]
       interval: 30s

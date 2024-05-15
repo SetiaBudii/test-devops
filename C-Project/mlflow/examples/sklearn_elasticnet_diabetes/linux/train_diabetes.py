@@ -47,7 +47,7 @@ from mlflow.models import infer_signature
 
 #masukan url mlflow
 # mlflow.set_tracking_uri(uri="http://127.0.0.1:8087")
-mlflow.set_tracking_uri(uri="http://ctb.japaneast.cloudapp.azure.com:5000")
+mlflow.set_tracking_uri(uri="http://127.0.0.1:5000")
 
 
 # Evaluate metrics
