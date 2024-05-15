@@ -1,6 +1,6 @@
-# Test DevSecOps - PT LEN
+# Test DevSecOps - PT LEN IOT
 
-Repository untuk keperluan test pkl pada perusahaan PT LEN
+Repository untuk keperluan test pkl pada perusahaan PT LEN IOT
 
 ## Identitas:
 Nama             : Yayang Setia Budi  
