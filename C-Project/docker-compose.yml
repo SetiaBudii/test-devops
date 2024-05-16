@@ -63,7 +63,7 @@ services:
     environment:
       - AWS_ACCESS_KEY_ID=PV8zTp4cSbQSbqPsgZ52
       - AWS_SECRET_ACCESS_KEY=t4O8q5W3QRWJ5zqopEmzX5YKkwd1recgrC7s07zW
-      - MLFLOW_S3_ENDPOINT_URL=http://localhost:${MINIO_PORT}
+      - MLFLOW_S3_ENDPOINT_URL=http://s3:${MINIO_PORT}
       - MLFLOW_S3_IGNORE_TLS=true
     command: >
       mlflow server
